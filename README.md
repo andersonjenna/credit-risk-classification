@@ -7,7 +7,7 @@ Credit Risk Analysis Report
 
 Overview:
 
-In the analysis for this challenge, I built a logistic regression model to predict the risk of loan borrowers. A varitey of factors were used including the requested loan size and interest rate, income, debt to income ratio, number of accounts, derogatory marks and total debt. I ultimately aimed to preidct if the loan was healthy (0) or high risk (1). 
+In the analysis for this challenge, I built a logistic regression model to predict the risk of loan borrowers. A varitey of factors were used including the requested loan size and interest rate, income, debt to income ratio, number of accounts, derogatory marks and total debt. I ultimately aimed to predict if the loan was healthy (0) or high risk (1). 
 
 Results:
 
