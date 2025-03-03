@@ -1,5 +1,5 @@
 # credit-risk-classification
-Open the "credit_risk_classification" file in Jupyter Notebook. Run all of the cells for output of results of the model. The "lending_data" CSV is in the "Resoruces" folder. The path to the CSV is located in the Jupyter Notebook code.
+Within the "Credit_Risk" folder, open the "credit_risk_classification" file in Jupyter Notebook. Run all of the cells for output of results of the model. The "lending_data" CSV is in the "Resoruces" folder. The path to the CSV is located in the Jupyter Notebook code.
 
 ChatGPT was used to debug code.
 
