@@ -11,15 +11,15 @@ In the analysis for this challenge, I built a logistic regression model to predi
 
 Results:
 
-Accuracy: 0.99
-Precision for Healthy Loan (0): 1.00
-Recall for Healthy Loan (0): 0.99
-Precision for High-Risk Loan (1): 0.84
-Recall for High-Risk Loan (1): 0.94
-F1-Score for Healthy Loan (0): 1.00
-F1-Score for High-Risk Loan (1): 0.89
-Macro Average F1-Score: 0.94
-Weighted Average F1-Score: 0.99
+*Accuracy: 0.99
+*Precision for Healthy Loan (0): 1.00
+*Recall for Healthy Loan (0): 0.99
+*Precision for High-Risk Loan (1): 0.84
+*Recall for High-Risk Loan (1): 0.94
+*F1-Score for Healthy Loan (0): 1.00
+*F1-Score for High-Risk Loan (1): 0.89
+*Macro Average F1-Score: 0.94
+*Weighted Average F1-Score: 0.99
 
 Summary:
 
