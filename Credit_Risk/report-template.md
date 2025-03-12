@@ -1,27 +1,21 @@
-# Module 12 Report Template
+# Module 12 Report
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
-
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
+In the analysis for this challenge, I built a logistic regression model to predict the risk of loan borrowers. A varitey of factors were used including the requested loan size and interest rate, income, debt to income ratio, number of accounts, derogatory marks and total debt. I ultimately aimed to predict if the loan was healthy (0) or high risk (1). 
 
 ## Results
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
-
-* Machine Learning Model 1:
-    * Description of Model 1 Accuracy, Precision, and Recall scores.
+*Accuracy: 0.99
+*Precision for Healthy Loan (0): 1.00
+*Recall for Healthy Loan (0): 0.99
+*Precision for High-Risk Loan (1): 0.84
+*Recall for High-Risk Loan (1): 0.94
+*F1-Score for Healthy Loan (0): 1.00
+*F1-Score for High-Risk Loan (1): 0.89
+*Macro Average F1-Score: 0.94
+*Weighted Average F1-Score: 0.99
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+Overall, the performance of this model was excellent, with an accuracy of 99%. The model was better at predicting healthy loans with a precision of 1. The high risk loans had a precision of .84. I would recommend the logistic regression model for classifying loan risk. However, there is room for improvement for classifying the high risk loans.
